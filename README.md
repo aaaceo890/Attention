@@ -33,3 +33,7 @@
 
 6.CNN机器翻译：<br>
 [J. Gehring, M. Auli, D. Grangier, D. Carats, Y. N. Dauphin "Convolutional Sequence to Sequence Learning"](http://delivery.acm.org/10.1145/3310000/3305510/p1243-gehring.pdf?ip=61.150.43.51&id=3305510&acc=ACTIVE%20SERVICE&key=BF85BBA5741FDC6E%2E1DE562CDF7C9BB11%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35&__acm__=1576586699_b9d77762bc10a1c4d4c4da49c7d10881)<br>
+
+
+## 代码
+1.[tensorflow E2EASR代码](https://github.com/hirofumi0810/tensorflow_end2end_speech_recognition)<br>
