@@ -20,7 +20,7 @@
 [Dzmitry Bahdanau, Kyunghyun Cho, and Yoshua Bengio. Neural machine translation by jointly learning
 to align and translate. arXiv:1409.0473, September 2014](https://arxiv.org/pdf/1409.0473.pdf)
 
-2.第一篇将attention用于语音识别的文章：<br>
+2.第一篇将attention用于语音识别的文章(提出hybird attention机制，解决attention的位置信息问题)：<br>
 [J.Chorowski, D.Bahdanau, D.Serdyuk, K.Cho, and Y.Bengio."Attention-based models for speech recognition"](http://papers.nips.cc/paper/5847-attention-based-models-for-speech-recognition.pdf)<br>
 
 3.attention加窗改进，RNN更换为GRU在LVCSR任务上的应用：<br>
