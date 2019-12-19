@@ -16,24 +16,33 @@
 [Facebook提出全新CNN机器翻译：准确度超越谷歌而且还快九倍](https://zhuanlan.zhihu.com/p/26817030)<br>
 
 ## 论文
-1.第一篇将attention用于语音识别的文章：<br>
+1.attention用于语音识别前的baseline（用于翻译），对于长句识别效果急剧变差：<br>
+[Dzmitry Bahdanau, Kyunghyun Cho, and Yoshua Bengio. Neural machine translation by jointly learning
+to align and translate. arXiv:1409.0473, September 2014](https://arxiv.org/pdf/1409.0473.pdf)
+
+2.第一篇将attention用于语音识别的文章：<br>
 [J.Chorowski, D.Bahdanau, D.Serdyuk, K.Cho, and Y.Bengio."Attention-based models for speech recognition"](http://papers.nips.cc/paper/5847-attention-based-models-for-speech-recognition.pdf)<br>
 
-2.attention加窗改进，RNN更换为GRU在LVCSR任务上的应用：<br>
+3.attention加窗改进，RNN更换为GRU在LVCSR任务上的应用：<br>
 [D. Bahdanau, J. Chorowski, D. Serdyuk, P. Brakel, and Y. Bengio,“End-to-end attention- based large vocabulary speech recognition,”](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7472618)<br>
 
-3.最经典的attention语音识别模型：<br>
+4.最经典的attention语音识别模型：<br>
 [W. Chan, N. Jaitly, Q. Le, and O. Vinyals, “Listen, attend and spell: Aneural network for large vocabulary conversational speech recognition”](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7472621)<br>
 
-4.CTC+Attention:<br>
+5.CTC+Attention:<br>
 [S. Kim, T. Hori, and S. Watanabe, “Joint CTC-attention based end-to-end speech recognition using multi-task learning”](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7953075)<br>
 
-5.transformer:<br>
+6.transformer:<br>
 [N. Shazeer, Niki Parmar, J. Uszkoreit, L. Jones, A. N. Gomez, Ł. Kaiser, I. Polosukhin "Attention Is All You Need"](http://papers.nips.cc/paper/7181-attention-is-all-you-need.pdf)<br>
 
-6.CNN机器翻译：<br>
-[J. Gehring, M. Auli, D. Grangier, D. Carats, Y. N. Dauphin "Convolutional Sequence to Sequence Learning"](http://delivery.acm.org/10.1145/3310000/3305510/p1243-gehring.pdf?ip=61.150.43.51&id=3305510&acc=ACTIVE%20SERVICE&key=BF85BBA5741FDC6E%2E1DE562CDF7C9BB11%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35&__acm__=1576586699_b9d77762bc10a1c4d4c4da49c7d10881)<br>
+7.CNN机器翻译：<br>
+[J. Gehring, M. Auli, D. Grangier, D. Carats, Y. N. Dauphin "Convolutional Sequence to Sequence Learning"](http://delivery.acm.org/10.1145/3310000/3305510/p1243-gehring.pdf?ip=61.150.43.51&id=3305510&acc=ACTIVE%20SERVICE&key=BF85BBA5741FDC6E%2E1DE562CDF7C9BB11%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35&__acm__=1576586699_b9d77762bc10a1c4d4c4da49c7d10881)<br> 
+
+8.CNN attention+CTC:<br>
+[Kim S, Hori T, Watanabe S. Joint CTC-attention based end-to-end speech recognition using multi-task learning](https://arxiv.org/pdf/1609.06773.pdf)<br>
 
 
 ## 代码
 1.[tensorflow E2EASR代码](https://github.com/hirofumi0810/tensorflow_end2end_speech_recognition)<br>
+
+2.[pytorch E2EASR代码](https://github.com/Alexander-H-Liu/End-to-end-ASR-Pytorch)
