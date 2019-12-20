@@ -7,6 +7,8 @@
 [补充知识：LSTM](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)<br>
 
 2.Attention存在的问题：<br>
+(I)对噪声敏感<br>
+(II)对长句识别性能下降<br>
 [GMIS 2017 | 腾讯AI Lab副主任俞栋：语音识别研究的四大前沿方向](https://mp.weixin.qq.com/s?__biz=MzIzOTg4MjEwNw==&mid=2247483689&idx=1&sn=48c06c6cf270dc6b9db5ae46f78e520c&scene=21#wechat_redirect)<br>
 
 3.解读transformer：<br>
@@ -20,7 +22,7 @@
 [Dzmitry Bahdanau, Kyunghyun Cho, and Yoshua Bengio. Neural machine translation by jointly learning
 to align and translate. arXiv:1409.0473, September 2014](https://arxiv.org/pdf/1409.0473.pdf)
 
-2.第一篇将attention用于语音识别的文章(提出hybird attention机制，解决attention的位置信息问题)：<br>
+2.第一篇将attention用于语音识别的文章(提出hybird attention机制，解决attention的位置信息问题，提出'attention加窗机制')：<br>
 [J.Chorowski, D.Bahdanau, D.Serdyuk, K.Cho, and Y.Bengio."Attention-based models for speech recognition"](http://papers.nips.cc/paper/5847-attention-based-models-for-speech-recognition.pdf)<br>
 
 3.attention加窗改进，RNN更换为GRU在LVCSR任务上的应用：<br>
