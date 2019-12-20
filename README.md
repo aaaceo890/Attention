@@ -22,7 +22,7 @@
 [Dzmitry Bahdanau, Kyunghyun Cho, and Yoshua Bengio. Neural machine translation by jointly learning
 to align and translate. arXiv:1409.0473, September 2014](https://arxiv.org/pdf/1409.0473.pdf)
 
-2.第一篇将attention用于语音识别的文章(提出hybird attention机制，解决attention的位置信息问题，提出'attention加窗机制')：<br>
+2.第一篇将attention用于语音识别的文章(提出hybird attention机制，解决attention的位置信息问题，提出`attention加窗机制`)：<br>
 [J.Chorowski, D.Bahdanau, D.Serdyuk, K.Cho, and Y.Bengio."Attention-based models for speech recognition"](http://papers.nips.cc/paper/5847-attention-based-models-for-speech-recognition.pdf)<br>
 
 3.attention加窗改进，RNN更换为GRU在LVCSR任务上的应用：<br>
@@ -43,6 +43,8 @@ to align and translate. arXiv:1409.0473, September 2014](https://arxiv.org/pdf/1
 8.CNN attention+CTC:<br>
 [Kim S, Hori T, Watanabe S. Joint CTC-attention based end-to-end speech recognition using multi-task learning](https://arxiv.org/pdf/1609.06773.pdf)<br>
 
+9.self-attention+CTC:<br>
+[SELF-ATTENTION NETWORKS FOR CONNECTIONIST TEMPORAL CLASSIFICATION IN SPEECH RECOGNITION](https://arxiv.org/pdf/1901.10055.pdf)
 
 ## 代码
 1.[tensorflow E2EASR代码](https://github.com/hirofumi0810/tensorflow_end2end_speech_recognition)<br>
