@@ -31,7 +31,7 @@ to align and translate. arXiv:1409.0473, September 2014](https://arxiv.org/pdf/1
 4.最经典的attention语音识别模型：<br>
 [W. Chan, N. Jaitly, Q. Le, and O. Vinyals, “Listen, attend and spell: Aneural network for large vocabulary conversational speech recognition”](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7472621)<br>
 
-5.CTC+Attention:<br>
+5.CTC+Attention(CTC强化了对齐的单调性，且CTC加快网络训练速度):<br>
 [S. Kim, T. Hori, and S. Watanabe, “Joint CTC-attention based end-to-end speech recognition using multi-task learning”](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7953075)<br>
 
 6.transformer:<br>
