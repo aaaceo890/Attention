@@ -22,16 +22,16 @@
 [Dzmitry Bahdanau, Kyunghyun Cho, and Yoshua Bengio. Neural machine translation by jointly learning
 to align and translate. arXiv:1409.0473, September 2014](https://arxiv.org/pdf/1409.0473.pdf)
 
-2.第一篇将attention用于语音识别的文章(提出hybird attention机制，解决attention的位置信息问题，提出`attention加窗机制`)：<br>
+2.第一篇将attention用于语音识别的文章(提出hybird attention机制，解决attention的位置信息问题，提出`attention加窗机制`，数据集：`TIMIT`)：<br>
 [J.Chorowski, D.Bahdanau, D.Serdyuk, K.Cho, and Y.Bengio."Attention-based models for speech recognition"](http://papers.nips.cc/paper/5847-attention-based-models-for-speech-recognition.pdf)<br>
 
-3.attention加窗改进，RNN更换为GRU在LVCSR任务上的应用：<br>
+3.attention加窗改进，RNN更换为GRU在LVCSR任务上的应用（数据集：`(WSJ) corpus (available as LDC93S6B and LDC94S13B)`）：<br>
 [D. Bahdanau, J. Chorowski, D. Serdyuk, P. Brakel, and Y. Bengio,“End-to-end attention- based large vocabulary speech recognition,”](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7472618)<br>
 
 4.最经典的attention语音识别模型：<br>
 [W. Chan, N. Jaitly, Q. Le, and O. Vinyals, “Listen, attend and spell: Aneural network for large vocabulary conversational speech recognition”](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7472621)<br>
 
-5.CTC+Attention(CTC强化了对齐的单调性，且CTC加快网络训练速度):<br>
+5.CTC+Attention(CTC强化了对齐的单调性，且CTC加快网络训练速度，数据集：`WSJ1 (81 hours)` ,`WSJ0 (15 hours) `, `CHiME-4 (18 hours)`):<br>
 [S. Kim, T. Hori, and S. Watanabe, “Joint CTC-attention based end-to-end speech recognition using multi-task learning”](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7953075)<br>
 
 6.transformer:<br>
@@ -40,7 +40,7 @@ to align and translate. arXiv:1409.0473, September 2014](https://arxiv.org/pdf/1
 7.CNN机器翻译：<br>
 [J. Gehring, M. Auli, D. Grangier, D. Carats, Y. N. Dauphin "Convolutional Sequence to Sequence Learning"](http://delivery.acm.org/10.1145/3310000/3305510/p1243-gehring.pdf?ip=61.150.43.51&id=3305510&acc=ACTIVE%20SERVICE&key=BF85BBA5741FDC6E%2E1DE562CDF7C9BB11%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35&__acm__=1576586699_b9d77762bc10a1c4d4c4da49c7d10881)<br> 
 
-8.CNN attention+CTC:<br>
+8.CNN+RNN attention+CTC（Encoder在RNN前加入VGGnet进行特征提取，数据集：`Corpus of Spontaneous Japanese (CSJ)`,`HKUST`）:<br>
 [Kim S, Hori T, Watanabe S. Joint CTC-attention based end-to-end speech recognition using multi-task learning](https://arxiv.org/pdf/1609.06773.pdf)<br>
 
 9.self-attention+CTC:<br>
@@ -49,4 +49,5 @@ to align and translate. arXiv:1409.0473, September 2014](https://arxiv.org/pdf/1
 ## 代码
 1.[tensorflow E2EASR代码](https://github.com/hirofumi0810/tensorflow_end2end_speech_recognition)<br>
 
-2.[pytorch E2EASR代码](https://github.com/Alexander-H-Liu/End-to-end-ASR-Pytorch)
+2.[pytorch E2EASR代码](https://github.com/Alexander-H-Liu/End-to-end-ASR-Pytorch)<br>
+需要解决的问题：如何多GPU运行
