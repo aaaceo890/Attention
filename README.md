@@ -40,10 +40,13 @@ to align and translate. arXiv:1409.0473, September 2014](https://arxiv.org/pdf/1
 7.CNN机器翻译：<br>
 [J. Gehring, M. Auli, D. Grangier, D. Carats, Y. N. Dauphin "Convolutional Sequence to Sequence Learning"](http://delivery.acm.org/10.1145/3310000/3305510/p1243-gehring.pdf?ip=61.150.43.51&id=3305510&acc=ACTIVE%20SERVICE&key=BF85BBA5741FDC6E%2E1DE562CDF7C9BB11%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35&__acm__=1576586699_b9d77762bc10a1c4d4c4da49c7d10881)<br> 
 
-8.CNN+RNN attention+CTC（Encoder在RNN前加入VGGnet进行特征提取，数据集：`Corpus of Spontaneous Japanese (CSJ)`,`HKUST`）:<br>
+8.CNN+RNN的E2E ASR：<br>
+[VERY DEEP CONVOLUTIONAL NETWORKS FOR END-TO-END SPEECH RECOGNITION](https://arxiv.org/pdf/1610.03022.pdf)
+
+9.CNN+RNN attention+CTC（Encoder在RNN前加入VGGnet进行特征提取，数据集：`Corpus of Spontaneous Japanese (CSJ)`,`HKUST`）:<br>
 [Kim S, Hori T, Watanabe S. Joint CTC-attention based end-to-end speech recognition using multi-task learning](https://arxiv.org/pdf/1609.06773.pdf)<br>
 
-9.self-attention+CTC:<br>
+10.self-attention+CTC:<br>
 [SELF-ATTENTION NETWORKS FOR CONNECTIONIST TEMPORAL CLASSIFICATION IN SPEECH RECOGNITION](https://arxiv.org/pdf/1901.10055.pdf)
 
 ## 代码
