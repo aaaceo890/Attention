@@ -43,7 +43,7 @@ to align and translate. arXiv:1409.0473, September 2014](https://arxiv.org/pdf/1
 8.CNN+RNN的E2E ASR：<br>
 [VERY DEEP CONVOLUTIONAL NETWORKS FOR END-TO-END SPEECH RECOGNITION](https://arxiv.org/pdf/1610.03022.pdf)
 
-9.CNN+RNN attention+CTC（Encoder在RNN前加入VGGnet进行特征提取，数据集：`Corpus of Spontaneous Japanese (CSJ)`,`HKUST`）:<br>
+9.CNN+RNN attention+CTC（Encoder在RNN前加入VGGnet进行特征提取，数据集：`WSJ0`,`CHIME-4`）:<br>
 [Kim S, Hori T, Watanabe S. Joint CTC-attention based end-to-end speech recognition using multi-task learning](https://arxiv.org/pdf/1609.06773.pdf)<br>
 
 10.self-attention+CTC:<br>
